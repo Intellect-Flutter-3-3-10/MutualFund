@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mutualfund/theme/theme.dart';
-
 import 'mutualfund.dart';
 import 'routes/routes.dart';
 
-void main() {
-  runApp(const MutualFund());
-}
+//
+// void main() {
+//   runApp(const MutualFund());
+// }
 
-class MutualFund extends StatelessWidget {
+class MutualFundModule extends StatelessWidget {
   final ThemeData? theme;
   final ThemeData? darkTheme;
   final ThemeMode? themeMode;
   final String? basUrl;
 
-  const MutualFund({
+  const MutualFundModule({
     super.key,
     this.theme,
     this.darkTheme,
