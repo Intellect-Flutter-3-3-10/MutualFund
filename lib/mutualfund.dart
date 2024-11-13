@@ -1,4 +1,4 @@
-// library mutual_fund.dart;
+library mutual_fund.dart;
 
 /// screens export
 export 'screens/discover_screen/discover_screen.dart';
@@ -70,7 +70,7 @@ class MutualFundModule extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Mutual Funds App',
+      title: 'Mutual Funds App NEw',
       getPages: AppRoute.getPages(),
       debugShowCheckedModeBanner: false,
       theme: theme ?? AppTheme.lightTheme,
