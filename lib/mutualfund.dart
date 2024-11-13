@@ -70,7 +70,7 @@ class MutualFundModule extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Mutual Funds App',
+      title: 'Mutual Funds App new',
       getPages: AppRoute.getPages(),
       debugShowCheckedModeBanner: false,
       theme: theme ?? AppTheme.lightTheme,
